@@ -13,7 +13,7 @@ const Login = () => {
 
   const onSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch(`http://localhost:8000/auth/login`, {
+    const response = await fetch(`http://65.1.114.170:8000/auth/login`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
